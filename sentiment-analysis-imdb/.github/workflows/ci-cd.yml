@@ -3,8 +3,6 @@ name: Extract Features, Train MLP, Upload to Hugging Face
 on:
   push:
     branches: [main]
-    paths:
-      - 'sentiment-analysis-imdb/**'
   workflow_dispatch:
 
 jobs:
